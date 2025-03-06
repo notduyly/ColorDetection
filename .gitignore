@@ -1,2 +1,5 @@
 # Dependencies
 .venv
+
+# Compiled
+__pycache__
