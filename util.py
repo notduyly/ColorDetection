@@ -3,7 +3,7 @@ import cv2
 
 def get_limits(color):
 
-    # 1x1 NumPy arr with given color(BGR)
+    # 1x1 (1 pixel) NumPy arr with given color(BGR)
     c = np.uint8([[color]])
 
     # Convert the input color to HSV
