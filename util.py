@@ -12,7 +12,7 @@ def get_limits(color):
 
     # Sets the range for hue (intensity) to isolate certain colors.
     # Then, convert both limits back to NumPy array
-    lower_limit = np.array([hue - 10, 100, 100], dtype=np.uint8)
+    lower_limit = np.array([hue - 10, 150, 150], dtype=np.uint8)
     upper_limit = np.array([hue + 10, 255, 255], dtype=np.uint8)
 
     return lower_limit, upper_limit
